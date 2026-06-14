@@ -14,7 +14,7 @@
 
 ## 7. Regression Matrix
 
-The following matrix defines the regression testing depth and automation coverage across the core functional areas of the application, based on the risk assessment detailed in Section 3.
+The following example matrix defines the regression testing depth and automation coverage across the core functional areas of the application, based on the risk assessment detailed in Section 3.
 
 | Area | Risk | Regression Level | Automated |
 |---|---|---|---|

@@ -1,76 +1,122 @@
 # QA Documentation Portfolio
 
-A structured collection of professional QA documentation artefacts demonstrating industry-standard testing practices. Includes test plans, test cases, bug reports, and a requirements traceability matrix.
+Professional QA documentation portfolio demonstrating how quality assurance artefacts are created throughout the Software Development Life Cycle (SDLC).
+
+This repository contains realistic examples inspired by enterprise software projects. It showcases how QA documentation evolves from planning through execution to reporting, providing recruiters and hiring managers with examples of documentation commonly produced by Quality Assurance Engineers.
 
 ---
 
-## 📁 Repository Contents
+# 🎯 Repository Objectives
 
-| File | Description |
-|---|---|
-| `TestPlan.md` | Full test plan for a sample e-commerce web application |
-| `TestCases.xlsx` | Detailed test cases covering functional, negative, boundary, and security tests |
-| `BugReports.xlsx` | Defect register with severity, priority, steps to reproduce, and resolution tracking |
-| `RTM.xlsx` | Requirements Traceability Matrix mapping requirements to test cases |
+This portfolio demonstrates the ability to:
 
----
+- Design comprehensive QA documentation
+- Create structured test plans and testing strategies
+- Perform requirements traceability
+- Apply risk-based testing techniques
+- Document API testing approaches
+- Produce release readiness documentation
+- Report testing metrics
 
-## 🎯 Scope
-
-Documentation covers testing of a fictional e-commerce web application with the following modules:
-
-- **User Registration & Authentication**
-- **Product Search**
-- **Shopping Cart**
-- **Checkout & Payment**
-- **REST API endpoints**
+The examples are based on a fictional e-commerce application to simulate documentation found in real Agile development teams.
 
 ---
 
-## 📋 Documents Overview
+# 📁 Repository Structure
 
-### TestPlan.md
-- Project overview and objectives
-- Test scope (in/out of scope)
-- Test types: functional, regression, security, API, performance
-- Entry and exit criteria
-- Environment and tool requirements
-- Roles and responsibilities
+```text
+qa-documentation-portfolio/
+│
+├── README.md
+│
+├── test-planning/
+│   ├── test-plan.md
+│   ├── test-strategy.md
+│   ├── regression-strategy.md
+│   ├── risk-analysis.md
+│   ├── release-checklist.md
+│   └── artifacts/
+│       └── requirements-traceability-matrix.xlsx
+│
+├── execution/
+│   ├── api-testing-guide.md
+│   ├── exploratory-testing.md
+│   ├── defect-lifecycle.md
+│   └── artifacts/
+│       ├── test-cases.xlsx
+│       └── bug-reports.xlsx
+│
+├── reports/
+│   └── test-metrics-dashboard.md
 
-### TestCases.xlsx
-- 15+ test cases across all modules
-- Each case includes: preconditions, step-by-step instructions, expected result, actual result, pass/fail status
-- Categorised by test type: Functional, Negative, Boundary, Security, Integration
 
-### BugReports.xlsx
-- 8 defects ranging from Critical to Low severity
-- Full reproduction steps, expected vs actual results
-- Status tracking: Open / In Progress / Resolved
-- Retest results documented
-
-### RTM.xlsx
-- Maps each requirement to corresponding test case(s)
-- Coverage percentage calculated per requirement
-- Identifies untested requirements at a glance
+```
 
 ---
 
-## 🛠️ Tools Used (in practice)
+# 📚 Repository Contents
+
+| Area | Document | Purpose                                              | 
+|------|----------|------------------------------------------------------|
+| Test Planning | Test Plan | Defines testing scope, objectives and approach       |
+| Test Planning | Test Strategy | Overall QA strategy and testing approach             |
+| Test Planning | Regression Strategy | Risk-based regression approach                       |
+| Test Planning | Risk Analysis | Product and technical risk assessment                |
+| Test Planning | Release Checklist | Pre and post-release validation                      |  
+| Test Planning | Requirements Traceability Matrix | Maps requirements to test cases                      |  
+| Execution | Test Cases | Functional, negative, boundary and integration tests |  
+| Execution | Bug Reports | Sample defects with lifecycle tracking               |  
+| Execution | API Testing Guide | API validation practices                             |  
+| Execution | Exploratory Testing | Session-based exploratory testing                    |  
+| Execution | Defect Lifecycle | Defect workflow documentation                        |  
+| Reports | Test Metrics Dashboard | QA KPIs and release metrics                          |
+
+---
+
+# 🧪 Sample Application
+
+The documentation is based on a fictional e-commerce platform featuring:
+
+- User Registration
+- Authentication
+- Product Catalogue
+- Product Search
+- Shopping Cart
+- Checkout
+- Payment Processing
+- REST APIs
+- Order Management
+
+---
+
+# 🛠 Tools & Technologies
 
 | Tool | Purpose |
-|---|---|
-| Jira | Defect and test management |
-| Confluence | Documentation storage |
+|------|---------|
+| Jira | Test and defect management |
+| Confluence | Documentation |
 | Postman | API testing |
-| Selenium / Playwright | Automated regression |
-| Excel / Google Sheets | Manual test tracking |
+| Playwright / Selenium | UI automation |
+| Excel | Test artefacts |
+| Git & GitHub | Version control |
 
 ---
 
-## 📌 Skills Demonstrated
+# 💼 Skills Demonstrated
 
-- Writing clear, reproducible test cases
-- Defect logging with adequate detail for developers
-- Requirements traceability
-- Test planning and scope definition
-- Risk-based prioritisation
+- Test Planning
+- Test Strategy
+- Functional Testing
+- Regression Testing
+- API Testing
+- Risk Analysis
+- Requirements Traceability
+- Defect Management
+- Release Readiness
+- Test Reporting
+- QA Documentation
+- SDLC & Agile Practices
+
+---
+
+This repository is actively maintained as part of my QA engineering portfolio and is continuously expanded with additional documentation, templates and best practices inspired by enterprise software development projects.
